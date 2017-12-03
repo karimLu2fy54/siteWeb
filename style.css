@@ -1,0 +1,74 @@
+.introduction
+{
+    color: blue;
+}
+
+.salutations
+{
+	color:green;
+}
+
+/*
+p{
+	font-size: 12px;
+	font-family: Georgia;
+	font-style: italic;
+	text-align: center;
+	opacity: 1.5;
+	background-color: yellow;
+	border-radius: 10px;
+}*/
+
+#conteneur{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.element:nth-child(2){
+	order: 1;
+	flex: 2;
+	background-color: red;
+}
+
+.element{
+	background-color: blue;
+	margin: 10px;
+	padding-top: 300px;
+}
+
+
+p
+{
+    width: 350px; /* On a indiqué une largeur (obligatoire) */
+    height:50px;
+    /*margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    margin : 50px;
+    border: 5px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+    overflow : auto; /* mettre tout le texte dans un espace réduit avec barres de navigation */
+    word-wrap: : break-word; /* couper les mots dans leur encadrement */
+}
+
+
+h2,h1{
+	color:green;
+}
+
+h2:hover /* apparence au survol des liens */
+{
+	color: red;
+}
+
+body{/*
+	background-image: url("Ny.jpg");
+	background-repeat: no-repeat;*/
+	background-color: yellow;
+}
+
+a:visited /*quand le visiteur a déja visité la page*/
+{
+	color:green;
+}

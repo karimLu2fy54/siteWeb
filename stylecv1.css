@@ -1,0 +1,36 @@
+
+.photoIdentite{
+	float : right;
+}
+
+.accroche{
+	text-align: center;
+	font-family: 'Outwrite';
+	border-radius: 10px;
+	background-color : blue;
+	box-shadow: 6px 6px 0px black;
+}
+
+@font-face {
+    font-family: 'Outwrite';
+    src: url('Outwrite.ttf');
+         
+}
+
+body{
+	background-image: url("Ny.jpg");
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	color:brown;
+}
+
+ul{
+	color : red;
+
+}
+
